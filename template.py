@@ -1,16 +1,16 @@
 import os
-import pathlib as path
+from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 
-project_name = 'EASY-TEXT-SUMMARIZER'
+project_name = "EASY-TEXT-SUMMARIZER"
 
 # Enlist list of files name which need to create of your project
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
-    f"src/{project_name}/conponents/__init__.py",
+    f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
     f"src/{project_name}/logging/__init__.py",
@@ -35,7 +35,7 @@ for filepath in list_of_files:
     filedir,filename = os.path.split(filepath) #return folder name and inner file name seperately in string form
     
     if filedir !="":
-        os.makedirs(filedir)
+        os.makedirs(filedir, exist_ok=True)
         logging.info(f"Creating directory : {filedir} for the file {filename}")
         
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
