@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "TextSummarizer"
 AUTHOR_USER_NAME = "at-akshat-2107"
-SRC_REPO = "EASY_TEXT_SUMMARIZER"
+SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "at.akshat.mehta.2107@gmail.com"
 
 
