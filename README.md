@@ -74,21 +74,22 @@ Here is a sample dialogue from the SAMSum dataset with the model's predicted sum
 
 - **Dialogue**:
 
-Hannah: Hey, do you have Betty's number?
-Amanda: Lemme check
-Hannah: <file_gif>
-Amanda: Sorry, can't find it.
-Amanda: Ask Larry
-Amanda: He called her last time we were at the park together
-Hannah: I don't know him well
-Hannah: <file_gif>
-Amanda: Don't be shy, he's very nice
-Hannah: If you say so..
-Hannah: I'd rather you texted him
-Amanda: Just text him 🙂
-Hannah: Urgh.. Alright
-Hannah: Bye
-Amanda: Bye bye
+**Hannah:** Hey, do you have Betty's number?  
+**Amanda:** Lemme check  
+**Hannah:** ![gif](<file_gif>)  
+**Amanda:** Sorry, can't find it.  
+**Amanda:** Ask Larry  
+**Amanda:** He called her last time we were at the park together  
+**Hannah:** I don't know him well  
+**Hannah:** ![gif](<file_gif>)  
+**Amanda:** Don't be shy, he's very nice  
+**Hannah:** If you say so...  
+**Hannah:** I'd rather you texted him  
+**Amanda:** Just text him 🙂  
+**Hannah:** Urgh... Alright  
+**Hannah:** Bye  
+**Amanda:** Bye bye  
+
 
 
 - **Reference Summary**:  
